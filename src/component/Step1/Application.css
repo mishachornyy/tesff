@@ -1,0 +1,261 @@
+.stepp{
+
+  height: 1423px;
+ width: 1920px;
+  background: #839278;
+
+}
+.step-text{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  margin: 0 580px 14px;
+  padding-top: 80px;
+}
+
+.step-text h2{
+  color:  #B4B4B4;
+  padding-left: 117px;
+}
+
+.step1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  padding-top: 82px;
+
+  background: #839278;
+
+}
+.step1-text{
+  text-align: center;
+  display: flex;
+  align-items: center;
+
+
+  border-radius: 20px;
+
+  background: #FFFFFF;
+
+  margin: 0 459px;
+  width: 1002px;
+  min-height: 1114px;
+  padding: 10px;
+  background: #FFFFFF;
+}
+.br-text{
+  width: 982px;
+  border: 1px solid #839278;
+  border-radius: 20px;
+  color: #839278;
+}
+
+.h22{
+  padding-top: 49px;
+}
+.name{
+  padding-right: 93px;
+}
+.register {
+  display: flex;
+  align-items: center;
+  margin: 0 36px;
+  padding-top: 32px;
+  text-align: start;
+}
+
+
+
+
+.register h10{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+  color: black;
+}
+
+.register h6{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+
+
+
+  color: #000000;
+}
+
+.register input{
+  background: rgba(131, 146, 120, 0.2);
+  border: 1px solid #839278;
+  border-radius: 10px;
+height: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+
+
+}
+
+.register input[type=Full]{
+
+
+width: 544px;
+}
+
+
+.register input[type=first-name]{
+  margin-left: 54px;
+  width: 180px;
+}
+.Mi {
+  padding-left: 52px;
+}
+.register input[type=MI]{
+  margin-left: 32px;
+  width: 40px;
+}
+.register input[type=last-name]{
+  margin-left: 56px;
+  width: 180px;
+}
+.register input[type=names]{
+
+width: 544px;
+ margin-left: 48px;
+}
+.register input[type=id]{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+
+
+  color: #839278;
+  width: 179px;
+  margin-left: 71px;
+}
+
+.register input[type=location]{
+  margin-left: 67px;
+  width: 544px;
+}
+.register input[type=city]{
+  margin-left: 29px;
+  margin-right: 84px;
+  width: 150px;
+}
+.register select {
+  background: rgba(131, 146, 120, 0.2);
+  border: 1px solid #839278;
+  border-radius: 10px;
+  height: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  width: 150px;
+  margin-left: 16px;
+  margin-right: 84px;
+}
+.register input[type=zip-code]{
+  margin-left: 18px;
+  width: 150px;
+}
+
+
+.register input[type=location-different]{
+  margin-left: 24px;
+
+  width: 544px;
+}
+
+.register input[type=data]{
+  margin-left: 100px;
+
+  width: 220px;
+}
+
+.register input[type=phone]{
+  margin-left: 59px;
+  margin-right: 154px;
+  width: 220px;
+}
+.register input[type=fax]{
+  margin-left: 59px;
+
+  width: 220px;
+}
+.register-button {
+ display: flex;
+  margin: 0 114px;
+  margin-top: 80px;
+}
+.back{
+  padding-top: 6px;
+  width: 327px;
+  height: 60px;
+  border: 1px solid #B4B4B4;
+  border-radius: 10px;
+}
+.back a{
+  color: #B4B4B4;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 130%;
+}
+.next{
+  padding-top: 6px;
+  width: 327px;
+  height: 60px;
+  border: 1px solid #B4B4B4;
+  border-radius: 10px;
+  background: #839278;
+  margin-left: 100px;
+}
+
+.next a{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 130%;
+  color: #FFFFFF;
+
+}
+.circle-line {
+  display: flex;
+  height: 10px;
+  margin: 0 604px;
+
+}
+.line{
+  margin: 4px 4px;
+  width: 157px;
+  background: #B4B4B4;
+}
+.steps1 {
+  background: url(https://i.ibb.co/T0kPR78/steps.png);
+  width: 755px;
+  height: 49px;
+  margin: 0 auto;
+}

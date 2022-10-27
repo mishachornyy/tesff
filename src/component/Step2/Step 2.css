@@ -1,0 +1,64 @@
+.step2 {
+  min-height: 1343px;
+  background: #839278;
+}
+
+
+.step-text h1{
+  color: #F2B75B;
+
+}
+.line-yellow {
+  margin: 4px 4px;
+  width: 157px;
+  background: #F2B75B;
+}
+.register input[type=Name]{
+  margin-left: 137px;
+  margin-right: 104px;
+  width: 220px;
+}
+.register input[type=title]{
+  margin-left: 122px;
+
+  width: 220px;
+}
+.register input[type=home]{
+  margin-left: 55px;
+  margin-right: 102px;
+  width: 220px;
+}
+.register input[type=bisnes]{
+  margin-left: 8px;
+
+  width: 220px;
+}
+.register input[type=address]{
+  margin-left: 168px;
+
+  width: 600px;
+}
+.step2-text {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  margin: 0 459px;
+  width: 1002px;
+  height: 1034px;
+  padding: 10px;
+  background: #FFFFFF;
+}
+.br2-step2 {
+  width: 982px;
+  height: 1014px;
+  border: 1px solid #839278;
+  border-radius: 20px;
+  color: #839278;
+}
+.steps2 {
+  background: url(https://i.ibb.co/J5PxGsJ/steps2.png);
+  width: 755px;
+  height: 49px;
+  margin: 0 auto;
+}

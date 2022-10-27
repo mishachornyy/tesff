@@ -1,0 +1,27 @@
+footer {
+  height: 80px;
+  background: #FFFFFF;
+  padding-top: 30px;
+  width: 1920px;
+}
+
+.footerText {
+  max-width: 1293px;
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+
+  color: #839278;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+}
+h4{
+  padding-right: 91px;
+}
+h3{
+ padding-right:  388px
+}
+

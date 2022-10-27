@@ -1,0 +1,115 @@
+.step4
+{font-family: Montserrat;
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 130%;
+color: var(--key-white-color);
+  background: var(--key-green-color);
+}
+
+.step4-text{
+text-align: center;
+  border-radius: 20px;
+margin: 0 23.906vw;
+padding: 0.521vw;
+background: var(--key-white-color);
+}
+.license {
+  text-align: start;
+  margin: 0 2.083vw;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: var(--key-black-color);
+}
+.lake {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.prior  {
+  text-align: start;
+  margin: 0 2.083vw;
+  color: black;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+
+.prior input {
+  background: rgba(131, 146, 120, 0.2);
+  border: 1px solid #839278;
+  border-radius: 10px;
+  height: 2.083vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  width: 13.021vw;
+
+}
+
+.indicate{
+  text-align: start;
+  margin: 0 2.083vw;
+}
+
+
+.indicate input[type=checkbox] {
+
+
+  box-sizing: border-box;
+  margin-right: 0.625vw;
+
+  width:0.885vw;
+  height: 0.885vw;
+
+
+}
+
+.prior input[type=prior] {
+  background: rgba(131, 146, 120, 0.2);
+  border: 1px solid #839278;
+  border-radius: 10px;
+  height: 2.083vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  width: 27.083vw;
+}
+.member h5 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color:var(--key-black-color);
+  margin-right:  5.208vw;
+  margin-left: 0.208vw;
+}
+.steps4 {
+  background: url(https://i.ibb.co/XsfNJ32/steps4.png);
+  width: 39.323vw;
+  height: 2.552vw;
+  margin: 0 auto;
+}
+.stepp4{
+
+  height: 75.104vw;
+  width: 100vw;
+  background: #839278;
+
+}

@@ -1,0 +1,79 @@
+.admin{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  min-height: 900px;
+
+  background: #839278;
+
+}
+
+.admin-text{
+  text-align: center;
+  display: flex;
+  align-items: center;
+
+
+  border-radius: 20px;
+
+  background: #FFFFFF;
+
+  margin:0 641px;
+  width: 638px;
+  min-height: 438px;
+  padding: 10px;
+  background: #FFFFFF;
+}
+.br{
+  width: 618px;
+  height: 418px;
+  border: 1px solid #839278;
+  border-radius: 20px;
+  color: #839278;
+}
+
+
+.br h1  {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+ padding-top: 64px;
+}
+
+.br input{
+  background: rgba(131, 146, 120, 0.2);
+  border: 1px solid #839278;
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  min-width: 376px;
+  height: 40px;
+  margin-top:32px;
+  padding-left: 12px;
+}
+.login-btn {
+  margin-top: 50px;
+  width: 327px;
+  height: 60px;
+  background: #839278;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 130%;
+}
+.strike22{
+  width: 60px;
+}

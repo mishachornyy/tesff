@@ -1,0 +1,39 @@
+.menu-logo {
+  max-width: 1920px;
+  max-height: 100px;
+}
+.logo {
+  font-family: Jura;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 130%;
+  color: white;
+}
+
+.head-info a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  color: #FFFFFF;
+
+}
+
+.head-info :hover {
+  font-weight: 700;
+
+
+}
+.head-info :focus {
+  color: #F2B75B;
+;
+}
+.nav{
+  border-bottom-width: 1px;
+}
+.head-text a {
+  margin-top: 34px;
+  padding-right: 60px;
+}
