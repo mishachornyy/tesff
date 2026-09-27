@@ -9,6 +9,7 @@ import Application from "../Step1/Application";
 import License from "../License/License";
 import Administrative from "../Administrative/Administrative";
 import Reports from "../Reports/Reports";
+import { useCart } from "../Shop/CartContext";
 <Routes>
 
 
@@ -22,6 +23,7 @@ import Reports from "../Reports/Reports";
 
 
 export default function Example() {
+  const { openCart, count } = useCart();
   return (
     <Disclosure as="nav" className="bg-[#839278] nav menu-logo ">
       {({ open }) => (
@@ -51,8 +53,10 @@ export default function Example() {
                     <Link to="/Application">Application</Link>
                     <Link to="/License">License</Link>
                     <Link to="/Administrative">Administrative</Link>
-                    <Link to="/License">License</Link>
-
+                    <Link to="/Shop">Shop</Link>
+                    <button className="sc-nav-cart" onClick={openCart}>
+                      🛒{count > 0 ? ` ${count}` : ""}
+                    </button>
 
                   </div>
                 </div>
@@ -69,7 +73,10 @@ export default function Example() {
               <Link to="/Application">Application</Link>
               <Link to="/License">License</Link>
               <Link to="/Administrative">Administrative</Link>
-              <Link to="/License">License</Link>
+              <Link to="/Shop">Shop</Link>
+              <button className="sc-nav-cart" onClick={openCart}>
+                🛒{count > 0 ? ` ${count}` : ""}
+              </button>
 
             </div>
           </Disclosure.Panel>

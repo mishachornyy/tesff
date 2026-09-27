@@ -16,12 +16,15 @@ import Step2 from "./component/Step2/Step 2";
 import Step3 from "./component/Step3/Step 3";
 import Step4 from "./component/Step4/Step 4";
 import Step5 from "./component/Step5/Step 5";
+import Shop from "./component/Shop/Shop";
+import { CartProvider } from "./component/Shop/CartContext";
+import Cart from "./component/Shop/Cart";
 
 
 
 function App() {
   return (
-    <>
+    <CartProvider>
       <Menu />
       <Routes>
 
@@ -36,17 +39,16 @@ function App() {
         <Route path="/Application/step3" element={<Step3 />} />
         <Route path="/Application/step4" element={<Step4 />} />
         <Route path="/Application/step5" element={<Step5 />} />
-
-
+        <Route path="/Shop" element={<Shop />} />
 
 
 
 
       </Routes>
 
+      <Cart />
 
-
-    </>
+    </CartProvider>
   );
 
 }
